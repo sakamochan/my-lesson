@@ -1,0 +1,160 @@
+li{
+  list-style: none;
+}
+
+header{
+  width: 100%;
+  /* margin: 0 auto; */
+  height: 60px;
+  /* width:100% */
+  /* background-color: red; */
+}
+
+.header-container{
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.header-title{
+  /* background-color: blue; */
+}
+
+.header-title h2{
+  margin: 0;
+  float: left;
+  line-height: 60px;
+  margin-left: 400px;
+  font-size: 20px;
+}
+
+.header-lists {
+  width: 100%;
+  padding-left: 800px;
+  /* background-color: turquoise; */
+  height: 60px;
+
+}
+
+
+.header-list{
+  float: left;
+  /* background-color: yellow; */
+  margin-left: 100px;
+  line-height: 60px;
+  font-size: 13px;
+}
+
+.top-wrapper{
+  width: 1800px;
+  margin: 0 auto;
+}
+
+.top-image{
+  width: 100%;
+
+}
+
+.h2{
+  text-align: center;
+  margin: 50px 0;
+  font-size: 30px;
+}
+
+.second-wrapper{
+  margin-top: 150px;
+}
+
+.second-container{
+  display: flex;
+  /* background-color: red; */
+  width: 1200px;
+  margin:0 auto;
+}
+
+.second-img img{
+  /* display:inline-block; */
+  width: 90%;
+  text-align: center;
+}
+
+.second-text{
+  flex-wrap: wrap;
+  width: 50%;
+  /* background-color:blue */
+}
+
+.content-wrapper{
+  margin-top: 150px;
+}
+
+.content-container{
+  width: 1200px;
+  margin:0 auto;
+  /* background-color: red; */
+  text-align: center;
+}
+
+.contents{
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.content img{
+  width: 90%;
+}
+
+.content p{
+  margin: 0 20px;
+  text-align: left;
+}
+
+.message-wrapper{
+  margin-top: 150px;
+}
+.message-container{
+text-align: center;
+
+}
+
+.message-container input{
+  width: 600px;
+  height: 50px;
+  border-radius: 20px;
+  padding:5px 20px;
+  border-color: rgba(0,0,0,0.2);
+  font-size: 20px;
+  
+}
+
+.message-container h3{
+  margin: 0;
+}
+
+.btn{
+  font-size: 30px;
+  background-color: salmon;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  color:white;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+
+
+  
+.footer-container{
+  width: 1200px;
+  height: 100px;
+  /* background-color: royalblue; */
+  margin: 0 auto;
+  border-top:2px solid rgba(0,0,0,0.2);
+  margin-top: 150px;
+}
+
+.footer-container p{
+  float: right;
+  /* background-color: red; */
+}
