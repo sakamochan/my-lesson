@@ -11,17 +11,18 @@ header{
 }
 
 .header-container{
-  width: 1800px;
+  max-width: 1800px;
   margin: 0 auto;
+  display: flex;
 }
 
-.header-title{
-  /* background-color: blue; */
-}
 
-.header-title h2{
-  margin: 0;
-  float: left;
+
+.header-h2{
+  /* margin: 0; */
+  margin-top: 0;
+  margin-bottom: 0;
+  /* float: left; */
   line-height: 60px;
   margin-left: 400px;
   font-size: 20px;
@@ -29,7 +30,7 @@ header{
 
 .header-lists {
   width: 100%;
-  padding-left: 800px;
+  /* padding-left: 800px; */
   /* background-color: turquoise; */
   height: 60px;
 
@@ -45,7 +46,8 @@ header{
 }
 
 .top-wrapper{
-  width: 1800px;
+  /* width: 1800px; */
+  max-width: 1800px;
   margin: 0 auto;
 }
 
@@ -67,13 +69,13 @@ header{
 .second-container{
   display: flex;
   /* background-color: red; */
-  width: 1200px;
+  max-width: 1200px;
   margin:0 auto;
 }
 
 .second-img img{
   /* display:inline-block; */
-  width: 90%;
+  max-width: 600px;
   text-align: center;
 }
 
@@ -88,7 +90,7 @@ header{
 }
 
 .content-container{
-  width: 1200px;
+  max-width: 1200px;
   margin:0 auto;
   /* background-color: red; */
   text-align: center;
@@ -146,7 +148,7 @@ text-align: center;
 
   
 .footer-container{
-  width: 1200px;
+  max-width: 1200px;
   height: 100px;
   /* background-color: royalblue; */
   margin: 0 auto;
